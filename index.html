@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jamuna Devi S | Portfolio</title>
+    <title>Jamuna Devi S | Full Stack Web Developer</title>
+    <!-- CSS files-ku aprom, illati mela inga add pannunga -->
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS files-ku aprom, illati mela inga add pannunga -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
@@ -42,23 +46,32 @@
 </body>
 </html>
 
-    <!-- Navbar -->
+    <!-- nav section -->
+     !-- Navbar -->
     <nav class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-slate-200/80 shadow-sm dark:bg-slate-900/80 dark:border-slate-800">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-xl font-bold tracking-tight font-heading text-blue-700 dark:text-blue-400 hover:text-blue-800 transition-colors">JAMUNA DEVI S</a>
+        <a href="#" class="text-xl font-bold tracking-tight font-heading text-blue-700 dark:text-blue-400 flex items-center gap-2">
+    JAMUNA DEVI S
+
+
+
             <div class="flex items-center space-x-8">
                 <div class="space-x-8 text-sm font-medium tracking-wide hidden md:flex text-slate-600 dark:text-slate-400">
                     <a href="#about" class="hover:text-blue-700 dark:hover:text-blue-400 transition-colors duration-200">About</a>
-                    <a href="#competencies" class="hover:text-blue-700 dark:hover:text-blue-400 transition-colors duration-200">Competencies</a>
+                 
                     <a href="#skills" class="hover:text-blue-700 dark:hover:text-blue-400 transition-colors duration-200">Skills</a>
                     <a href="#projects" class="hover:text-blue-700 dark:hover:text-blue-400 transition-colors duration-200">Projects</a>
                     <a href="#experience" class="hover:text-blue-700 dark:hover:text-blue-400 transition-colors duration-200">Experience</a>
                     <a href="#certifications" class="hover:text-blue-700 dark:hover:text-blue-400 transition-colors duration-200">Certifications</a>
                 </div><!-- Inside your <nav> or <ul> list -->
 <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
-                <!-- Theme Toggle Button -->
-                <button id="theme-toggle" class="p-2 rounded-lg bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 transition-colors cursor-pointer" aria-label="Toggle Theme">
-                    <i id="theme-toggle-icon" class="fa-solid fa-moon text-lg"></i>
+            
+    
+    <!-- Dark Mode Toggle Button -->
+    <button id="darkModeToggle" class="p-2 rounded-full bg-slate-200 dark:bg-slate-800 transition-all hover:scale-110">
+        <i class="fa-solid fa-moon dark:text-yellow-400"></i>
+    </button>
+</nav>
                 </button>
             </div>
         </div>
@@ -71,24 +84,29 @@
         <!-- Left Side -->
         <div class="space-y-6">
             <!-- Tag -->
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-800 font-semibold text-xs uppercase tracking-wider dark:bg-blue-950/40 dark:border-blue-900/50 dark:text-blue-300">
-                <span class="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span> Aspiring Full-Stack & AI Developer
-            </div>
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/50 border border-blue-200/50 backdrop-blur-sm shadow-[0_2px_10px_-3px_rgba(37,99,235,0.3)] text-blue-800 font-bold text-[11px] uppercase tracking-widest dark:bg-blue-950/20 dark:border-blue-800/50 dark:text-blue-300 transition-all hover:scale-105 hover:border-blue-400">
+    <span class="relative flex h-2 w-2">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
+    </span>
+    Aspiring Full-Stack & AI Developer
+</div>
             
             <!-- Heading -->
             <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white tracking-tight font-heading leading-tight">
                  Building <span class="text-blue-700 dark:text-blue-400">intelligent web applications</span> with AI-driven solutions
             </h1>
             
-            <!-- Paragraph -->
-            <p class="text-slate-600 dark:text-slate-400 text-lg leading-relaxed">
-                B.Tech AI & Data Science student passionate about Full Stack Development, Artificial Intelligence, and building real-world applications that solve practical problems.
-            </p>
+            <!-- About Section -->
+<p class="text-slate-600 dark:text-slate-400 text-lg leading-relaxed">
+    I'm <strong>Jamuna Devi</strong>, a third-year B.Tech student in  <span class="text-blue-600 font-bold">Artificial Intelligence & Data Science</span> </strong> at Excel Engineering College with a current CGPA of <span class="text-blue-600 font-bold">8.8</span>. 
+    Driven by a passion for building innovative web applications and AI-powered solutions.
+</p>
 
             <!-- Metrics -->
             <div class="flex gap-10 py-2">
     <div class="group cursor-pointer transition-all duration-300 hover:scale-110">
-        <div class="text-2xl font-bold text-blue-700 dark:text-blue-400">8.7</div>
+        <div class="text-2xl font-bold text-blue-700 dark:text-blue-400">8.8</div>
         <div class="text-xs text-slate-500 font-bold uppercase tracking-wider"> CURRENT CGPA</div>
     </div>
     <div class="group cursor-pointer transition-all duration-300 hover:scale-110">
@@ -136,32 +154,6 @@
     </div>
 </section>
                 
-                <!-- Quick Impact Metrics & Action Buttons -->
-<div class="space-y-6 mt-8"> <!-- 'mt-8' spacing-ai control pannum -->
-    
-    
-    <section id="competencies" class="py-20 px-6 max-w-6xl mx-auto">
-    <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-12 font-heading flex items-center gap-3">
-        <span class="text-blue-600 font-semibold text-lg">01.</span>Professional Strengths
-    </h2>
-    
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        
-        <div class="group p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500/10 transition-all duration-300">
-            <h3 class="text-lg font-bold text-blue-600 mb-2 group-hover:text-blue-500 transition-colors">Web Engineering</h3>
-            <p class="text-sm text-slate-600 dark:text-slate-400">Building responsive full-stack applications using modern web technologies, REST APIs, and scalable backend systems.</p>
-        </div>
-
-        <div class="group p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500/10 transition-all duration-300">
-            <h3 class="text-lg font-bold text-blue-600 mb-2 group-hover:text-blue-500 transition-colors">AI & Machine Learning</h3>
-            <p class="text-sm text-slate-600 dark:text-slate-400">Developing intelligent AI-powered solutions using machine learning, deep learning, and data analytics techniques.</p>
-        </div>
-
-        <div class="group p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500/10 transition-all duration-300">
-            <h3 class="text-lg font-bold text-blue-600 mb-2 group-hover:text-blue-500 transition-colors">Cloud & Deployment</h3>
-            <p class="text-sm text-slate-600 dark:text-slate-400">Deploying and managing applications using AWS cloud services, databases, and modern DevOps workflows.</p>
-        </div>
-
     </div>
 </section>
     <!-- Technical Skills & Extended Tools Section -->
@@ -176,33 +168,33 @@
         
         <!-- Languages -->
         <div class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 p-6 rounded-xl hover:border-blue-200 transition-all shadow-sm">
-            <h3 class="text-slate-800 dark:text-white font-semibold mb-4 flex items-center gap-2"><i class="fa-solid fa-code text-sm text-blue-600"></i> Languages</h3>
+            <h3 class="text-slate-800 dark:text-white font-semibold mb-4 flex items-center gap-2"><i class="fa-solid fa-code text-sm text-blue-600"></i>Programming Languages</h3>
             <ul class="space-y-2.5 text-slate-600 dark:text-slate-400 text-sm font-medium">
                 <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> Java</li>
                 <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> Python</li>
                 <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> JavaScript</li>
-                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> HTML / CSS / SQL</li>
+                
             </ul>
         </div>
 
         <!-- Frameworks -->
         <div class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 p-6 rounded-xl hover:border-blue-200 transition-all shadow-sm">
-            <h3 class="text-slate-800 dark:text-white font-semibold mb-4 flex items-center gap-2"><i class="fa-solid fa-layer-group text-sm text-blue-600"></i> Frameworks</h3>
+            <h3 class="text-slate-800 dark:text-white font-semibold mb-4 flex items-center gap-2"><i class="fa-solid fa-layer-group text-sm text-blue-600"></i> Frontend Development</h3>
             <ul class="space-y-2.5 text-slate-600 dark:text-slate-400 text-sm font-medium">
-                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> React.js / Node.js</li>
-                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> Flask / REST API</li>
-                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> Tailwind CSS</li>
+                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> HTML5</li>
+                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> CSS3</li>
+                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> React.js</li>
             </ul>
         </div>
 
         <!-- AI & ML (New Category) -->
         <div class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 p-6 rounded-xl hover:border-blue-200 transition-all shadow-sm">
-            <h3 class="text-slate-800 dark:text-white font-semibold mb-4 flex items-center gap-2"><i class="fa-solid fa-brain text-sm text-blue-600"></i> AI & ML</h3>
+            <h3 class="text-slate-800 dark:text-white font-semibold mb-4 flex items-center gap-2"><i class="fa-solid fa-brain text-sm text-blue-600"></i> Backend Development </h3>
             <ul class="space-y-2.5 text-slate-600 dark:text-slate-400 text-sm font-medium">
-                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> Pandas</li>
-                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> TensorFlow</li>
-                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> OpenCV</li>
-                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> LangChain</li>
+                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> Node.js</li>
+            <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> REST APIs</li>
+               
+         
             </ul>
         </div>
 
@@ -217,175 +209,209 @@
 
         <!-- Tools & Cloud -->
         <div class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 p-6 rounded-xl hover:border-blue-200 transition-all shadow-sm">
-            <h3 class="text-slate-800 dark:text-white font-semibold mb-4 flex items-center gap-2"><i class="fa-solid fa-screwdriver-wrench text-sm text-blue-600"></i> Tools & Cloud</h3>
+            <h3 class="text-slate-800 dark:text-white font-semibold mb-4 flex items-center gap-2"><i class="fa-solid fa-screwdriver-wrench text-sm text-blue-600"></i> Tools & Platforms</h3>
             <ul class="space-y-2.5 text-slate-600 dark:text-slate-400 text-sm font-medium">
-                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> Git / GitHub</li>
-                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> AWS / Vercel</li>
-                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> VS Code / Postman</li>
+                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> Git </li>
+                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> GitHub</li>
+                <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> VS Code</li>
+                
             </ul>
         </div>
-    </div>
-</section>
-    <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
+
+       <div class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 p-6 rounded-xl hover:border-blue-200 transition-all shadow-sm">
+    <!-- ஐகானை இங்கே மாற்றுங்கள்: fa-user-group அல்லது fa-lightbulb பயன்படுத்தலாம் -->
+    <h3 class="text-slate-800 dark:text-white font-semibold mb-4 flex items-center gap-2">
+        <i class="fa-solid fa-user-group text-sm text-blue-600"></i> Soft Skills
+    </h3>
+    <ul class="space-y-2.5 text-slate-600 dark:text-slate-400 text-sm font-medium">
+        <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> Problem Solving </li>
+        <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> Communication</li>
+        <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> Adaptability</li>
+        <li><i class="fa-solid fa-angles-right text-xs text-blue-400 mr-1"></i> Team Collaboration</li>
+    </ul>
+</div>
+ 
+</div> 
+</section> 
+
+<!-- project section -->
+     <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
     <h2 class="text-2xl font-bold mb-12 text-slate-900 dark:text-white flex items-center gap-3">
-        <span class="text-blue-600 font-semibold text-lg">03.</span> Featured Projects
+        <span class="text-blue-600 font-semibold text-lg">03.</span>  Featured  Projects
     </h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        
-        <div class="group p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl hover:border-blue-500 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+    <div class="group p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl hover:border-blue-500 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 flex flex-col h-full">
+        <div class="flex-grow">
             <span class="inline-block px-3 py-1 mb-4 text-[10px] font-bold text-blue-600 uppercase bg-blue-100 dark:bg-blue-950 rounded-full tracking-wider">Smart Surveillance</span>
-            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">SentinelAI</h3>
-            <p class="text-sm text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">AI-Powered Smart Cities Surveillance Platform with real-time monitoring, OCR and YOLOv8.</p>
-            
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">SentinelAI : Integrated Smart City Surveillance and Forensic Hub</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-2 leading-relaxed"><strong class="text-slate-900 dark:text-white">Problem:</strong> Monitoring traffic, identifying suspicious activities, and detecting vehicle violations manually across multiple surveillance cameras is inefficient and prone to delays.</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-6 leading-relaxed"><strong class="text-slate-900 dark:text-white">Built:</strong> Developed an AI-powered surveillance platform that performs real-time vehicle detection, OCR-based number plate recognition, and predictive analytics to automatically identify traffic violations and security threats.</p>
             <div class="flex flex-wrap gap-2 mb-6">
                 <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">Python</span>
                 <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">YOLOv8</span>
                 <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">OpenCV</span>
             </div>
-            
-            <a href="https://github.com/Jamuna06/SentinelAI-Integrated-Smart-City-Surveillance-and-Forensic-Hub" target="_blank" class="text-sm font-semibold text-blue-600 flex items-center gap-1 group-hover:gap-2 transition-all">
-                View on GitHub <i class="fa-solid fa-arrow-right text-xs"></i>
+        </div>
+        <div class="mt-auto pt-4">
+            <a href="https://github.com/Jamuna06/SentinelAI-Integrated-Smart-City-Surveillance-and-Forensic-Hub" target="_blank" class="text-sm font-semibold text-slate-700 dark:text-slate-300 flex items-center gap-2 hover:text-blue-600 transition-all">
+                <i class="fa-brands fa-github text-xl"></i> <span>View Code</span>
             </a>
         </div>
+    </div>
 
-        <div class="group p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl hover:border-blue-500 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300">
+    <div class="group p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl hover:border-blue-500 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 flex flex-col h-full">
+        <div class="flex-grow">
             <span class="inline-block px-3 py-1 mb-4 text-[10px] font-bold text-blue-600 uppercase bg-blue-100 dark:bg-blue-950 rounded-full tracking-wider">Deep Learning</span>
-            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">Medical Image Diagnosis</h3>
-            <p class="text-sm text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">Deep learning-based system to detect disease patterns.</p>
-            
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">AI-Medical Image Diagnostic System</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-2 leading-relaxed"><strong class="text-slate-900 dark:text-white">Problem:</strong> Diagnosing diseases from medical scans manually is time-consuming and can vary depending on the doctor's experience.</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-6 leading-relaxed"><strong class="text-slate-900 dark:text-white">Built:</strong> Developed a deep learning-based medical diagnosis system using CNN and Explainable AI (XAI) to classify medical images and provide interpretable predictions for healthcare professionals.</p>
             <div class="flex flex-wrap gap-2 mb-6">
                 <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">Python</span>
-                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">CNN</span>
-                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">Flask</span>
+                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">SQLite</span>
+                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">Tensorflow</span>
+                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">FPDF</span>
             </div>
-            
-            <a href="https://github.com/Jamuna06/AI-Based-Medical-Image-Survelliance" target="_blank" class="text-sm font-semibold text-blue-600 flex items-center gap-1 group-hover:gap-2 transition-all">
-                View on GitHub <i class="fa-solid fa-arrow-right text-xs"></i>
+        </div>
+        <div class="mt-auto pt-4">
+            <a href="https://github.com/Jamuna06/AI-Medical-Image-Diagnostic-System.git" target="_blank" class="text-sm font-semibold text-slate-700 dark:text-slate-300 flex items-center gap-2 hover:text-blue-600 transition-all">
+                <i class="fa-brands fa-github text-xl"></i> <span>View Code</span>
             </a>
         </div>
+    </div>
 
-        <div class="group p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl hover:border-blue-500 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300">
+    <div class="group p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl hover:border-blue-500 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 flex flex-col h-full">
+        <div class="flex-grow">
             <span class="inline-block px-3 py-1 mb-4 text-[10px] font-bold text-blue-600 uppercase bg-blue-100 dark:bg-blue-950 rounded-full tracking-wider">RAG Platform</span>
-            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">Legal Doc Analyzer</h3>
-            <p class="text-sm text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">AI-powered analyzer using NLP and Gemini API.</p>
-            
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">AI-Powered Legal Document Analyzer</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-2 leading-relaxed"><strong class="text-slate-900 dark:text-white">Problem:</strong> Legal documents are lengthy and complex, making it difficult to quickly identify important clauses and critical information.</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-6 leading-relaxed"><strong class="text-slate-900 dark:text-white">Built:</strong> Developed an AI-powered document analyzer using NLP and the Gemini API to summarize legal documents, extract key clauses, and answer document-related queries.</p>
             <div class="flex flex-wrap gap-2 mb-6">
-                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">Python</span>
-                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">LangChain</span>
+                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">React</span>
                 <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">Gemini API</span>
+                  <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">PDF.js</span>
             </div>
-            
-            <a href="https://github.com/Jamuna06/AI-Powered-Legal-Document-Analyzer" target="_blank" class="text-sm font-semibold text-blue-600 flex items-center gap-1 group-hover:gap-2 transition-all">
-                View on GitHub <i class="fa-solid fa-arrow-right text-xs"></i>
+        </div>
+        <div class="mt-auto pt-4">
+            <a href="https://github.com/Jamuna06/AI-Powered-Legal-Document-Analyzer" target="_blank" class="text-sm font-semibold text-slate-700 dark:text-slate-300 flex items-center gap-2 hover:text-blue-600 transition-all">
+                <i class="fa-brands fa-github text-xl"></i> <span>View Code</span>
             </a>
         </div>
+    </div>
 
-        <div class="group p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl hover:border-blue-500 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300">
+    <div class="group p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl hover:border-blue-500 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 flex flex-col h-full">
+        <div class="flex-grow">
             <span class="inline-block px-3 py-1 mb-4 text-[10px] font-bold text-blue-600 uppercase bg-blue-100 dark:bg-blue-950 rounded-full tracking-wider">Web App</span>
-            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">BARBOUR Online</h3>
-            <p class="text-sm text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">A full-stack salon booking system.</p>
-            
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">BARBOUR Online Saloon Booking System</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-2 leading-relaxed"><strong class="text-slate-900 dark:text-white">Problem:</strong> Customers often face long waiting times and difficulty scheduling salon appointments.</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-6 leading-relaxed"><strong class="text-slate-900 dark:text-white">Built:</strong> Developed a responsive full-stack salon booking website that allows users to browse services, compare pricing, and book appointments online.</p>
             <div class="flex flex-wrap gap-2 mb-6">
-                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">React.js</span>
-                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">Node.js</span>
-                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">MongoDB</span>
+                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">HTML5</span>
+                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">CSS3</span>
+                <span class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[10px] rounded-md font-mono">Javascript</span>
             </div>
-            
-            <a href="https://github.com/Jamuna06/BARBOUR-Online-Saloon-Booking-System" target="_blank" class="text-sm font-semibold text-blue-600 flex items-center gap-1 group-hover:gap-2 transition-all">
-                View on GitHub <i class="fa-solid fa-arrow-right text-xs"></i>
+        </div>
+        <div class="mt-auto pt-4">
+            <a href="https://github.com/Jamuna06/BARBOUR-Online-Saloon-Booking-System" target="_blank" class="text-sm font-semibold text-slate-700 dark:text-slate-300 flex items-center gap-2 hover:text-blue-600 transition-all">
+                <i class="fa-brands fa-github text-xl"></i> <span>View Code</span>
             </a>
         </div>
+    </div>
 
+</div>
+    
+</div>
+</div>
     </div>
 </section>
-    <!-- Experience Section -->
-    <!-- Professional Experience Section (Continuous Timeline Fix) -->
-<section id="experience" class="py-20 px-6 max-w-6xl mx-auto">
+
+<!-- experience section -->
+    <section id="experience" class="py-20 px-6 max-w-6xl mx-auto">
     <h2 class="text-2xl font-bold mb-12 text-slate-900 dark:text-white flex items-center gap-3">
         <span class="text-blue-600 font-semibold text-lg">04.</span> Professional Experience
     </h2>
 
-    <!-- Single wrapper with continuous line -->
     <div class="relative border-l-2 border-slate-200 dark:border-slate-800 ml-4 space-y-12">
         
         <!-- Entry 1: Thiran360AI -->
         <div class="relative pl-8">
-            <!-- Continuous Line Dot -->
             <div class="absolute -left-[9px] top-1 w-4 h-4 bg-blue-600 rounded-full border-4 border-white dark:border-slate-950"></div>
             
             <h3 class="text-lg font-bold text-slate-900 dark:text-white">Frontend Development Intern</h3>
-            <p class="text-blue-600 font-medium text-sm mb-4">Thiran360AI | May 2025</p>
+            <p class="text-sm font-medium mb-4">
+                <span class="text-indigo-600 dark:text-indigo-400 font-bold">Thiran360AI</span> 
+                <span class="text-slate-400 mx-2">|</span> 
+                <span class="text-blue-600">Dec 2025 - Dec 2025</span>
+            </p>
             <ul class="list-disc text-slate-600 dark:text-slate-400 text-sm space-y-2 ml-4">
-                <li>Built interactive UI components using React.js for real-time project workflows</li>
-                <li>Implemented responsive layouts and dynamic view rendering using React component architecture</li>
-                <li>Gained hands-on experience in state management and props handling in React.js applications</li>
+                <li>Developed responsive and reusable UI components using React.js for real-time web applications.</li>
+                <li>Collaborated with the frontend team to build, test, and enhance production-ready web applications using modern React practices.</li>
             </ul>
         </div>
 
         <!-- Entry 2: Mist Software Solutions -->
         <div class="relative pl-8">
-            <!-- Continuous Line Dot -->
             <div class="absolute -left-[9px] top-1 w-4 h-4 bg-blue-600 rounded-full border-4 border-white dark:border-slate-950"></div>
             
             <h3 class="text-lg font-bold text-slate-900 dark:text-white">Web Development Intern</h3>
-            <p class="text-blue-600 font-medium text-sm mb-4">Mist Software Solutions Pvt Ltd | 2024</p>
+            <p class="text-sm font-medium mb-4">
+                <span class="text-indigo-600 dark:text-indigo-400 font-bold">Mist Software Solutions Pvt Ltd</span> 
+                <span class="text-slate-400 mx-2">|</span> 
+                <span class="text-blue-600">Dec 2024 - Jan 2025</span>
+            </p>
             <ul class="list-disc text-slate-600 dark:text-slate-400 text-sm space-y-2 ml-4">
-                <li>Worked on real-time web development projects covering both frontend and backend modules</li>
-                <li>Developed foundational skills in HTML, CSS, and JavaScript through live project exposure</li>
-                <li>Understood structured database design and basic backend integration in web applications</li>
+                <li>Developed responsive web pages using HTML, CSS, and JavaScript while learning industry-standard web development practices.</li>
+                <li>Built interactive user interfaces and implemented frontend features for web applications.</li>
             </ul>
         </div>
 
     </div>
 </section>
+</section>
 
     <!-- Education Section -->
-    <!-- Education Section (Fixed & Polished) -->
-<section id="education" class="py-20 px-6 max-w-6xl mx-auto border-t border-slate-200 dark:border-slate-900">
-    <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-12 flex items-center gap-3">
-        <span class="text-blue-600 font-semibold text-lg">05.</span> Education Timeline
+    <section id="education" class="py-20 px-6 max-w-6xl mx-auto border-t border-slate-200 dark:border-slate-900">
+    <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-white mb-12 flex items-center gap-3">
+        <span class="text-blue-600 font-semibold text-lg">05.</span> Education
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
-        <!-- B.Tech Card -->
-        <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-lg transition-all duration-300 group hover:-translate-y-1">
-            <span class="text-blue-600 font-bold text-xs uppercase tracking-widest mb-2 block">2023 — 2027</span>
-            <!-- Fixed text size to prevent wrapping -->
-            <h3 class="text-base font-bold text-slate-900 dark:text-white mb-1 group-hover:text-blue-600 transition-colors leading-tight">Excel Engineering College (Autonomous)</h3>
-            <p class="text-slate-500 dark:text-slate-400 text-sm mb-4">B.Tech Artificial Intelligence and Data Science</p>
-            <div class="inline-block bg-blue-50 dark:bg-blue-950/50 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full text-xs font-bold border border-blue-100 dark:border-blue-900">
-                CURRENT CGPA: 8.7
+        <div class="bg-white dark:bg-slate-900 p-8 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm hover:shadow-xl transition-all duration-300 group hover:-translate-y-2">
+            <span class="text-blue-600 font-bold text-xs uppercase tracking-widest mb-3 block">2023 — 2027</span>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2 leading-tight">Excel Engineering College</h3>
+            <p class="text-slate-500 dark:text-slate-400 text-sm mb-6">B.Tech – Artificial Intelligence & Data Science</p>
+            <div class="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold inline-block shadow-lg shadow-blue-600/30">
+                CGPA: 8.8/10
             </div>
         </div>
 
-        <!-- 12th Card -->
-        <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-lg transition-all duration-300 group hover:-translate-y-1">
-            <span class="text-blue-600 font-bold text-xs uppercase tracking-widest mb-2 block">Graduated 2021</span>
-            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1 group-hover:text-blue-600 transition-colors">GV Higher Secondary School</h3>
-            <p class="text-slate-500 dark:text-slate-400 text-sm mb-4">12th Matric Board Examination — Mettur</p>
-            <div class="inline-block bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 px-3 py-1 rounded-full text-xs font-bold border border-slate-200 dark:border-slate-700">
-                MARKS: 87.14%
+        <div class="bg-white dark:bg-slate-900 p-8 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm hover:shadow-xl transition-all duration-300 group hover:-translate-y-2">
+            <span class="text-blue-600 font-bold text-xs uppercase tracking-widest mb-3 block">Graduated 2023</span>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2 leading-tight">G.V. Higher Secondary School</h3>
+            <p class="text-slate-500 dark:text-slate-400 text-sm mb-6">Higher Secondary (Class XII)</p>
+            <div class="bg-slate-900 dark:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold inline-block shadow-lg shadow-slate-900/30">
+                Score: 87.14%
             </div>
         </div>
 
-        <!-- 10th Card -->
-        <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-lg transition-all duration-300 group hover:-translate-y-1">
-            <span class="text-blue-600 font-bold text-xs uppercase tracking-widest mb-2 block">Graduated 2019</span>
-            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1 group-hover:text-blue-600 transition-colors">GV Higher Secondary School</h3>
-            <p class="text-slate-500 dark:text-slate-400 text-sm mb-4">10th Matric Board Examination — Mettur</p>
-            <div class="inline-block bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 px-3 py-1 rounded-full text-xs font-bold border border-slate-200 dark:border-slate-700">
-                MARKS: 100%
+        <div class="bg-white dark:bg-slate-900 p-8 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm hover:shadow-xl transition-all duration-300 group hover:-translate-y-2">
+            <span class="text-blue-600 font-bold text-xs uppercase tracking-widest mb-3 block">Graduated 2021</span>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2 leading-tight">G.V. Higher Secondary School</h3>
+            <p class="text-slate-500 dark:text-slate-400 text-sm mb-6">Secondary School (Class X)</p>
+            <div class="bg-slate-900 dark:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold inline-block shadow-lg shadow-slate-900/30">
+                Score: 100%
             </div>
         </div>
+    </div>
+</section>
 
     </div>
 </section>
 
     <!-- Certifications Section (With Logos Added) -->
 
-    <!-- Certifications Section (Fixed & Optimized) -->
 <section id="certifications" class="py-10 px-6 max-w-6xl mx-auto border-t border-slate-200 dark:border-slate-900">
     <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-8 flex items-center gap-3">
         <span class="text-blue-600 font-semibold text-lg">06.</span> Certifications & Credentials
@@ -398,23 +424,35 @@
         </h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <!-- 1. AWS Cloud Practitioner -->
-            <a href="YOUR_LINK_HERE" target="_blank" class="p-5 bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700 text-white rounded-xl shadow-md border-l-4 border-l-orange-500 flex items-start gap-4 hover:scale-[1.02] transition-all">
-                <div class="p-3 rounded-lg bg-white/10 text-orange-400 text-2xl"><i class="fa-brands fa-aws"></i></div>
-                <div>
-                    <h4 class="text-sm font-bold">AWS Certified Cloud Practitioner</h4>
-                    <p class="text-xs text-slate-300 mt-1">Infrastructure management and operational safety.</p>
-                </div>
-            </a>
+        <a href="AWS Certificate.jpeg" target="_blank" 
+   class="p-5 bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700 text-white rounded-xl shadow-md border-l-4 border-l-orange-500 flex items-center gap-6 hover:scale-[1.02] transition-all">
+    
+    <!-- AWS Logo -->
+    <div class="p-2 rounded-lg bg-white w-16 h-16 flex items-center justify-center flex-shrink-0">
+        <img src="aws-logo.png" alt="AWS Logo" class="w-12 h-12 object-contain">
+    </div>
+    
+    <div>
+        <h4 class="text-sm font-bold">AWS Certified Cloud Practitioner</h4>
+        <p class="text-xs text-slate-300 mt-1">Infrastructure management and operational safety.</p>
+    </div>
+</a>
+</a>
+
             <!-- 2. IBM SkillsBuild -->
-            <a href="YOUR_LINK_HERE" target="_blank" class="p-5 bg-gradient-to-br from-blue-950 to-slate-900 border border-blue-900 text-white rounded-xl shadow-md border-l-4 border-l-blue-500 flex items-start gap-4 hover:scale-[1.02] transition-all">
-                <div class="p-2 rounded-lg bg-white w-12 h-12 flex items-center justify-center flex-shrink-0">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" class="w-8 h-8 object-contain">
-                </div>
-                <div>
-                    <h4 class="text-sm font-bold">IBM SkillsBuild — Web Fundamentals</h4>
-                    <p class="text-xs text-slate-300 mt-1">Foundational knowledge in web construction and server protocols.</p>
-                </div>
-            </a>
+           <a href="IBM Certificate.jpeg" target="_blank" 
+   class="p-5 bg-gradient-to-br from-blue-950 to-slate-900 border border-blue-900 text-white rounded-xl shadow-md border-l-4 border-l-blue-500 flex items-center gap-6 hover:scale-[1.02] transition-all">
+    
+    <!-- IBM Logo -->
+    <div class="p-2 rounded-lg bg-white w-16 h-16 flex items-center justify-center flex-shrink-0">
+        <img src="ibm-logo.png" alt="IBM Logo" class="w-12 h-12 object-contain">
+    </div>
+    
+    <div>
+        <h4 class="text-sm font-bold">IBM SkillsBuild — Web Development Fundamentals</h4>
+        <p class="text-xs text-slate-300 mt-1">Foundational knowledge in web construction and server protocols.</p>
+    </div>
+</a>
         </div>
     </div>
   
@@ -542,118 +580,184 @@
         </div>
     </div>
 
-<section id="contact" class="py-20 px-6 max-w-4xl mx-auto">
-    <div class="relative bg-slate-900 rounded-3xl p-12 text-center shadow-2xl border border-slate-800 overflow-hidden">
-        
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-600/20 border border-blue-500/30 text-blue-400 text-xs font-bold uppercase tracking-widest mb-6 animate-pulse">
-            <span class="w-2 h-2 rounded-full bg-blue-400"></span> Available for Opportunities
-        </div>
 
-        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Let's Build Together</h2>
-        <p class="text-slate-400 max-w-lg mx-auto mb-10 leading-relaxed">
-            I am actively looking for new challenges. Let's connect!
+   
+<!-- Main Contact Section -->
+<!-- ================= CONTACT SECTION ================= -->
+<!-- ================= CONTACT SECTION ================= -->
+
+<!-- <section id="contact" class="py-10 px-6 max-w-6xl mx-auto border-t border-slate-200"> -->
+    <section id="contact" class="py-10 px-6 max-w-6xl mx-auto">
+    <!-- This divider creates the line separation seen in your screenshots -->
+    <div class="border-t border-slate-200 mb-12"></div>
+
+    <!-- Heading -->
+    <h2 class="text-2xl font-bold tracking-tight text-slate-900 mb-12 flex items-center gap-3">
+        <span class="text-blue-600 font-semibold text-lg">07.</span>
+        Contact
+    </h2>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start font-sans">
+    
+    <div class="space-y-6">
+        <h3 class="text-4xl font-extrabold leading-tight text-slate-900 tracking-tight">
+            Let's connect and <br>
+            <span class="text-blue-600">Build something amazing.</span>
+        </h3>
+
+           <p class="text-lg leading-relaxed text-slate-600 max-w-xl mb-10">
+            Open to Full Stack Developer internships and entry-level opportunities.
+            Feel free to reach out!
         </p>
+            <!-- Email -->
+             <a href="mailto:jamunadevisatheesh04@email.com"
+    class="group flex items-center gap-5 mb-6 transition-all duration-300">
+    <div
+        class="w-14 h-14 rounded-2xl border border-slate-200 flex items-center justify-center transition-all duration-300 group-hover:border-blue-500 group-hover:bg-blue-50">
+        <i class="fa-solid fa-envelope text-blue-600 text-xl transition-all duration-300"></i>
+    </div>
+    <span class="text-lg text-slate-700 transition-all duration-300 group-hover:text-blue-600">
+        jamunadevisatheesh04@email.com
+    </span>
+</a>
+                    
 
-        <div class="flex flex-wrap justify-center gap-4">
-            <a href="mailto:jamunadevisatheesh04@gmail.com" class="flex items-center gap-2 px-6 py-3 bg-white text-slate-900 rounded-full font-bold hover:scale-105 transition-all">
-                <i class="fa-solid fa-envelope"></i> Email
-            </a>
-            <a href="https://www.linkedin.com/in/s-jamuna-devi-81a3742b9" target="_blank" class="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-full font-bold hover:scale-105 transition-all">
-                <i class="fa-brands fa-linkedin"></i> LinkedIn
-            </a>
-            <a href="https://github.com/Jamuna06/FullStack" target="_blank" class="flex items-center gap-2 px-6 py-3 bg-slate-800 text-white border border-slate-700 rounded-full font-bold hover:scale-105 transition-all">
-                <i class="fa-brands fa-github"></i> GitHub
-            </a>
-            <a href="tel:+91 6382017988" class="flex items-center gap-2 px-6 py-3 bg-emerald-600 text-white rounded-full font-bold hover:scale-105 transition-all">
-                <i class="fa-solid fa-phone"></i> Call
-            </a>
+            <!-- Phone -->
+           <a href="tel:+916382017988"
+    class="group flex items-center gap-5 mb-12 transition-all duration-300">
+    <div
+        class="w-14 h-14 rounded-2xl border border-slate-200 flex items-center justify-center transition-all duration-300 group-hover:border-blue-500 group-hover:bg-blue-50">
+        <i class="fa-solid fa-phone text-blue-600 text-xl transition-all duration-300"></i>
+    </div>
+    <span class="text-lg text-slate-700 transition-all duration-300 group-hover:text-blue-600">
+        +91 6382017988
+    </span>
+</a>
+
+            <!-- Divider -->
+<div class="border-t border-slate-200 mb-8"></div>
+
+<!-- Connect With Me Box -->
+<div class="bg-blue-50 border border-blue-100 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:shadow-blue-100 hover:-translate-y-1">
+<!-- 
+    <div class="mt-8 p-6 rounded-3xl border border-slate-100 bg-slate-50 transition-all duration-300 hover:border-blue-200 hover:bg-white hover:shadow-lg hover:shadow-blue-50"> -->
+    <p class="text-xs uppercase tracking-[3px] font-bold text-slate-500 mb-5">
+        CONNECT WITH ME
+    </p>
+
+    <div class="flex flex-wrap gap-5">
+        <a href="https://www.linkedin.com/in/s-jamuna-devi-81a3742b9" target="_blank"
+            class="flex-1 min-w-[180px] flex items-center justify-center gap-3 bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:bg-blue-700 hover:scale-105 hover:shadow-lg">
+            <i class="fa-brands fa-linkedin text-xl"></i> LinkedIn
+        </a>
+        
+        <a href="https://github.com/Jamuna06"
+            target="_blank"
+            class="flex-1 min-w-[180px] flex items-center justify-center gap-3 bg-slate-900 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:bg-black hover:scale-105 hover:shadow-lg">
+
+            <i class="fa-brands fa-github text-2xl"></i>
+            GitHub
+
+      </a>
+
+    </div> <!-- flex -->
+
+</div> <!-- Connect With Me Box -->
+
+</div> <!-- LEFT SIDE END -->
+
+
+        <!-- RIGHT SIDE CONTACT FORM -->
+<div class="lg:col-span-1 lg:justify-self-end w-full">
+
+    <div class="bg-white rounded-3xl border border-slate-200 shadow-xl p-10 w-full max-w-xl">
+
+        <form class="space-y-6">
+<div>
+                <label class="block text-sm font-semibold text-slate-700 mb-2">Name</label>
+                <input type="text" class="w-full px-4 py-3 rounded-xl border border-slate-300 transition-all duration-300 hover:border-blue-500 hover:shadow-md focus:ring-2 focus:ring-blue-500 outline-none">
+            </div>
+
+           <div>
+                <label class="block text-sm font-semibold text-slate-700 mb-2">Email</label>
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="w-full px-4 py-3 rounded-xl border border-slate-300 transition-all duration-300 hover:border-blue-500 hover:shadow-md focus:ring-2 focus:ring-blue-500 outline-none">
+            </div>
+
+            <div>
+                <label class="block text-sm font-semibold text-slate-700 mb-2">Message</label>
+                <textarea
+                    rows="6"
+                    placeholder="Write your message..."
+                    class="w-full px-4 py-3 rounded-xl border border-slate-300 transition-all duration-300 hover:border-blue-500 hover:shadow-md focus:ring-2 focus:ring-blue-500 outline-none resize-none"></textarea>
+            </div>
+
+            <button
+                type="submit"
+                class="w-full bg-blue-600 text-white py-4 rounded-xl font-bold hover:bg-blue-700 transition duration-300">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+    </div>
+
+</div>
+
         </div>
 
-        <div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-900/20 via-transparent to-transparent pointer-events-none"></div>
     </div>
 
-    <div class="mt-12 text-center text-slate-500 text-sm">
-        <p>© 2026 Jamuna Devi S. Structured for industrial recruitment applications.</p>
-    </div>
 </section>
-    <!-- JS Layers for Event Isolation and Theme Toggles -->
-    <script>
-        // Theme Toggle Functionality
-        const themeToggleBtn = document.getElementById('theme-toggle');
-        const themeToggleIcon = document.getElementById('theme-toggle-icon');
-        
-        themeToggleBtn.addEventListener('click', () => {
-            document.documentElement.classList.toggle('dark');
-            if(document.documentElement.classList.contains('dark')) {
-                themeToggleIcon.className = 'fa-solid fa-sun text-lg';
-            } else {
-                themeToggleIcon.className = 'fa-solid fa-moon text-lg';
-            }
-        });
 
-        // Modal Logic Functionality
-        function openModal(modalId) {
-            const modal = document.getElementById(modalId);
-            if(modal) {
-                modal.classList.remove('opacity-0', 'pointer-events-none');
-                const innerBox = modal.querySelector('div > div');
-                if(innerBox) {
-                    innerBox.classList.remove('scale-95');
-                    innerBox.classList.add('scale-100');
-                }
-                document.body.classList.add('modal-active');
-            }
+      
+
+
+   
+</section>
+            
+   
+
+
+
+           
+</section>
+<!-- JavaScript Logic -->
+<script>
+    // 1. Button and HTML element-ai select pannunga
+    const toggleBtn = document.getElementById('darkModeToggle');
+    const htmlElement = document.documentElement;
+    const icon = toggleBtn.querySelector('i');
+
+    // 2. Click panna ena nadakkanum nu script
+    toggleBtn.addEventListener('click', () => {
+        // Dark class irundha remove pannu, illana add pannu
+        if (htmlElement.classList.contains('dark')) {
+            htmlElement.classList.remove('dark');
+            localStorage.setItem('theme', 'light');
+            icon.className = 'fa-solid fa-moon'; // Light mode-la moon icon
+            icon.style.color = ''; 
+        } else {
+            htmlElement.classList.add('dark');
+            localStorage.setItem('theme', 'dark');
+            icon.className = 'fa-solid fa-sun'; // Dark mode-la sun icon
+            icon.style.color = '#facc15'; // Yellow color
         }
+    });
 
-        function closeModal(modal) {
-            if(modal) {
-                modal.classList.add('opacity-0', 'pointer-events-none');
-                const innerBox = modal.querySelector('div > div');
-                if(innerBox) {
-                    innerBox.classList.remove('scale-100');
-                    innerBox.classList.add('scale-95');
-                }
-                document.body.classList.remove('modal-active');
-            }
-        }
+    // 3. Page refresh aanalum theme மாறாம இருக்க (Persistent state)
+    if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        htmlElement.classList.add('dark');
+        icon.className = 'fa-solid fa-sun';
+        icon.style.color = '#facc15';
+    }
+</script>
 
-        // Bind Project Card Target Clicks for Details Buttons
-        document.querySelectorAll('[data-modal-target]').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                const targetId = btn.getAttribute('data-modal-target');
-                openModal(targetId);
-            });
-        });
 
-        // Bind Close Button Clicks
-        document.querySelectorAll('.close-modal-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                const modal = btn.closest('.modal');
-                closeModal(modal);
-            });
-        });
-
-        // Background Modal Dismiss
-        document.querySelectorAll('.modal').forEach(modal => {
-            modal.addEventListener('click', (e) => {
-                if(e.target === modal) {
-                    closeModal(modal);
-                }
-            });
-        });
-
-        // Escape Key Binding
-        window.addEventListener('keydown', (e) => {
-            if(e.key === 'Escape') {
-                document.querySelectorAll('.modal').forEach(modal => {
-                    if(!modal.classList.contains('opacity-0')) {
-                        closeModal(modal);
-                    }
-                });
-            }
-        });
     </script>
 </body>
 </html>
